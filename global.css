@@ -1,0 +1,43 @@
+html{
+    font-family: 'Raleway', sans-serif;
+}
+.heading-small{
+    font-size: 1.25rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.heading-medium {
+    font-size:2rem;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.heading-big{
+    font-size: 1.75rem;
+}
+.yazı{
+    font-family: 'Abel', sans-serif;
+    color:  #472915;
+}
+.btn{
+    color: #cd9d7d;
+    border: 1px solid black;
+    padding:4%;
+}
+.btn:hover{
+    color:white;
+    background-color: #472915;
+}
+.yazı2{
+    font-family: 'Quicksand', sans-serif;
+    color:  #472915;
+}
+.yazı3{
+    color: white;
+}
+.yazı4{
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    letter-spacing:5px;
+}

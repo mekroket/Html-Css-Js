@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #fff;
+    text-decoration: none
+}
+.container{
+    background:#472915;
+}
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    padding: 0 0.75rem;
+    height: 60px;
+    
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li {
+    padding: 2.5rem;
+    
+}
+#navbar ul li a:hover{
+    color: #cd9d7d;
+}
+.resim{
+    width: 100%;
+    height:300px;
+}
+.alt-kutu{
+    width: 100%;
+    height:500px;
+    background:white;
+    display: flex;
+    margin-top: -1%;
+    position: relative;
+}
+.img1{
+    position: absolute;
+    bottom:40%;
+    left: 10%;
+}
+.tit{
+    position: absolute;
+    left:65%;
+    color: white;
+    bottom: 100%;
+    line-height:45px;
+}
+.fa{
+    padding: 5px;
+}
+.pr{
+    width:25%;
+    height:600px;
+    position: absolute;
+    left: 65%;
+    padding-top: 1%;
+    letter-spacing:5%;
+    line-height:30px;
+}
+#orta2{
+    display: flex;
+}
+.alt-kutu2{
+    width: 100%;
+    background-color: #f2ede9;
+    height: 600px;
+    position: relative;
+}
+.alt-kutu3{
+    width: 100%;
+    background-color: white;
+    height: 600px;
+    position: relative;
+}
+.alt-kutu4{
+    width: 100%;
+    background-color: #472915;
+    height: 600px;
+    position: relative;
+}
+.ftt{
+    background-color:blanchedalmond;
+    height:40px;
+    width:100%;
+    color: #472915;
+}
+.write1{
+    position: absolute;
+    left: 10%;
+    font-size: 40px;
+    top: 20%;
+}
+.write2{
+    width:25%;
+    position: absolute;
+    left:65%;
+    padding-top: 5%;
+}
+.learn{
+    color:#472915 ;
+    border: 1px solid black;
+    padding: 10px;
+}
+.learn:hover{
+    color:white;
+    background: #472915;
+}
+.yazı2{
+    line-height: 25px;
+}
+.ftt .fot{
+    display: flex;
+    justify-content:center;
+    padding-top: 0.7%;
+}
+.write5{
+    position: absolute;
+    top: 9%;
+    left: 5%;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color:  #472915;
+    display:flex;
+    justify-items: normal;
+  }
+  .learn2{
+    padding:10px 150px;
+    border: 1px solid white;
+    display: flex;
+    position: absolute;
+    top:110%;
+  }
+  .learn2:hover{
+      background:white;
+      color:#472915 ;
+  }
